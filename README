@@ -1,0 +1,29 @@
+Image to ASCII Art Converter
+This Python script converts an image file to ASCII art and displays it in the terminal using keyboard characters. The resulting ASCII art can be customized by adjusting various constants in the script.
+
+Dependencies
+This script requires the following dependencies:
+
+Python 3
+Pillow (Python Imaging Library)
+You can install Pillow using pip:
+
+
+pip install Pillow
+
+Usage
+To use this script, run the following command from the terminal:
+
+arduino
+python ASCIImaker.py /path/to/image.jpg
+Replace /path/to/image.jpg with the path to the image file you want to convert.
+
+The script will resize the image to fit within the terminal window, convert each pixel to a corresponding keyboard character based on its grayscale value, and print the resulting ASCII art to the console.
+
+Customization
+You can customize the appearance of the ASCII art by adjusting the following constants in the script:
+
+CHARS: the list of keyboard characters to use for the ASCII art. Characters are ordered from darkest to lightest grayscale value.
+TERMINAL_WIDTH: the width of the terminal window in characters.
+TERMINAL_HEIGHT: the height of the terminal window in characters.
+SCALE_FACTOR: the scale factor to use when resizing the image. Set to a smaller value for larger images.
