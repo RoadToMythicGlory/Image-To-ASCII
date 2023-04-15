@@ -15,7 +15,7 @@ Usage
 To use this script, run the following command from the terminal:
 
 arduino
-python ASCIImaker.py /path/to/image.jpg
+python ASCII-maker.py /path/to/image.jpg
 Replace /path/to/image.jpg with the path to the image file you want to convert.
 
 The script will resize the image to fit within the terminal window, convert each pixel to a corresponding keyboard character based on its grayscale value, and print the resulting ASCII art to the console.
